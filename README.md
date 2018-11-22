@@ -1,5 +1,10 @@
 # lumberjack  [![GoDoc](https://godoc.org/gopkg.in/natefinch/lumberjack.v2?status.png)](https://godoc.org/gopkg.in/natefinch/lumberjack.v2) [![Build Status](https://travis-ci.org/natefinch/lumberjack.svg?branch=v2.0)](https://travis-ci.org/natefinch/lumberjack) [![Build status](https://ci.appveyor.com/api/projects/status/00gchpxtg4gkrt5d)](https://ci.appveyor.com/project/natefinch/lumberjack) [![Coverage Status](https://coveralls.io/repos/natefinch/lumberjack/badge.svg?branch=v2.0)](https://coveralls.io/r/natefinch/lumberjack?branch=v2.0)
 
+__Note: This repo forked from [sirupsen/logrus](https://github.com/natefinch/lumberjack), And made the following changes:__
+
+- Modify the format of backupTimeFormat to `2006-01-02-15`
+- Change import path prefix to `github.com/yangchangshun/lumberjack`
+
 # Deprecated
 
 This package, Luberjack (effectively v1) is deprecated in favor of v2 of Lumberjack, available from gopkg.in/natefinch/lumberjack.v2 (which redirects to the v2 branch of this repo).
